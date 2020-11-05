@@ -1,0 +1,59 @@
+.swiperContainer{
+    height: 560px;
+}
+.image{
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    height: 650px;
+    z-index: 1;
+}
+.adviceBlock{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10vw;
+    z-index: 2;
+}
+.slide{
+    display: flex;
+    align-items: center;
+}
+.moreButton{
+    width: 200px;
+    height: 45px;
+    background: #DEC377;
+    border-radius: 2px;
+    border-color: transparent;
+    cursor: pointer;
+    /* Button (main) */
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    /* or 231% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    /* Main (light) */
+
+    color: #FFFFFF;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    top: -160px;
+    max-width: 42px;
+    left: 10vw;
+}
+
