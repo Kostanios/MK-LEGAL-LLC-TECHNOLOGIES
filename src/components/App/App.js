@@ -2,6 +2,8 @@ import './App.scss';
 import Header from '../Header/index';
 import FirstScreen from '../FirstScreen/index';
 import Advantages from '../Advantages/index';
+import Concept from '../concept/index';
+import Directions from '../Directions/index';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header/>
       <FirstScreen/>
       <Advantages/>
+      <Concept/>
+      <Directions/>
     </div>
   );
 }

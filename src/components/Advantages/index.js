@@ -5,7 +5,7 @@ const Advantages = () => {
     return (
         <div className={advantages.container}>
             {cardsData.map((el)=>{
-                return <div className={advantages.card}>
+                return <div className={advantages.card} key={el.text}>
                     <el.logo/>
                     <p>{el.text}</p>
                 </div>

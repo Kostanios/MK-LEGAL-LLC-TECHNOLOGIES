@@ -15,7 +15,6 @@ const FirstScreen = () => {
       </div>
       <img className={screen.image} src={el.url}/>
     </div>})
-    console.log(slides)
     const swiperRef = useRef(null);
     const goNext = () => {
       if (swiperRef.current && swiperRef.current.swiper) {

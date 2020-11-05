@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 calc(10vw - 15px);
+    align-items: baseline;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: 15px;
+    display: flex;
+    width: 315px;
+    height: 115px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    padding: 25px 0;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.name{
+    text-align: start;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.nameButton{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+.more{
+    margin: 10px 15px;
+    width: 200px;
+    height: 45px;
+    background: #DEC377;
+    border-radius: 2px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.mainDirections{
+    display: flex;
+}
+.mainDirections{
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainDirections h1{
+    width: 33%;
+    text-align: start;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+}
+.mainDirectionsText{
+    width: 66%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: start;
+}
+.mainDirectionsText{
+    display: flex;
+    flex-direction: column;
+}

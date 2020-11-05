@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     z-index: 2;
+    padding: 0 calc(10vw - 10px);
 }
 .card{
-    margin: 0 30px;
+    margin: 0 10px;
     margin-bottom: 30px;
     width: 270px;
     height: 285px;
