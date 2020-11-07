@@ -1,7 +1,6 @@
 import React, {useRef} from 'react';
 import screen from './screen.module.scss'
 import Swiper from 'react-id-swiper';
-import 'swiper/swiper.scss';
 import { Slides as SlidesData } from './const';
 import { LeftSwiper, RightSwiper } from '../Svg/MiniSwipers';
 

@@ -1,0 +1,25 @@
+.swiperContainer{
+    height: 560px;
+}
+.image{
+    width: 80vw;
+    position: relative;
+    object-fit: cover;
+    height: 650px;
+    z-index: 1;
+}
+
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 0 3vw;
+    top: -350px;
+}
+
