@@ -1,0 +1,81 @@
+.container{
+    margin: 0;
+    padding: 0 calc(10vw - 30px);
+    padding-top: 80px;
+}
+.sampleBlock{
+    display: flex;
+    flex-direction: column;
+    //min-width: 550px;
+    padding-bottom: 55px;
+    // min-height: 305px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 15px;
+    align-items: flex-end;
+}
+.header{
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 0 50px;
+    text-align: start;
+    width: calc(100% - 100px);
+}
+.label{
+    position: absolute;
+}
+.text{
+    padding: 0 50px;
+    text-align: start;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.longBlock{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    padding-bottom: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.longBlock h1{
+    width: 30%;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.longBlock p{
+    width: 60%;
+    padding-top: 40px;
+    text-align: start;
+    margin: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.promises{
+    display: flex;
+    justify-content: space-between;
+}

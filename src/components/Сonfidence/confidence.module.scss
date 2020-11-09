@@ -1,0 +1,52 @@
+.layOut{
+    background-color: white;
+}
+.container{
+    padding: 0 10vw;
+    padding-bottom: 105px;
+}
+.content{
+    padding-top: 80px;
+    display: flex;
+}
+.question{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: start;
+}
+.answer{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: start;
+}
+.questionAnswer{
+    margin-right: 10%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cause{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.cause p{
+    margin: 0;
+    margin-left: 15px;
+}
+.line{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import feedback from './feedback.module.scss';
 import { FeedbackDB } from './const.js';
 import Swiper from 'react-id-swiper';
@@ -16,24 +16,23 @@ const Feedback = () => {
 
 const FeedbackSwiper = () => {
     const swiperRef = useRef(null);
-    const [slideIndex, seSlideIndex] = useState(null);
+    const [slideIndex, setSlideIndex] = useState(null);
     const goSlide = (index) => {
          if(swiperRef.current && swiperRef.current.swiper) {
              swiperRef.current.swiper.slideTo(index);
-             //console.log(swiperRef.current.swiper.realIndex)
-             seSlideIndex(swiperRef.current.swiper.realIndex);
+             setSlideIndex(swiperRef.current.swiper.realIndex);
          }
     }
     const goNext = () => {
         if (swiperRef.current && swiperRef.current.swiper) {
           swiperRef.current.swiper.slideNext();
-          seSlideIndex(swiperRef.current.swiper.realIndex);
+          setSlideIndex(swiperRef.current.swiper.realIndex);
         }
       };
       const goPrev = () => {
         if (swiperRef.current && swiperRef.current.swiper) {
           swiperRef.current.swiper.slidePrev();
-          seSlideIndex(swiperRef.current.swiper.realIndex);
+          setSlideIndex(swiperRef.current.swiper.realIndex);
         }
       };
     const params = {
@@ -73,7 +72,10 @@ const FeedbackSwiper = () => {
         }
         
     })
-    return <div className={feedback.swiper}>
+    return <div
+    onMouseMove={(e)=>{
+        setSlideIndex(swiperRef.current.swiper.realIndex)
+    }} className={feedback.swiper}>
       <Swiper ref={swiperRef} {...params}>
         {
           slides
