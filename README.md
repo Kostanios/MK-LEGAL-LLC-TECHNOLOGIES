@@ -1,3 +1,5 @@
+https://eager-villani-ce659b.netlify.app - hosting
+https://www.figma.com/file/IOYFCBSFHFeE1CzRXLSQDN/%D0%A2%D0%95%D0%A1%D0%A2-%D0%9C%D0%9A?node-id=1%3A730 -figma
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
