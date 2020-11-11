@@ -9,7 +9,6 @@
     z-index: 1;
 }
 .adviceBlock{
-    align-items: center;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -27,24 +26,17 @@
     border-radius: 2px;
     border-color: transparent;
     cursor: pointer;
-    /* Button (main) */
-
     font-family: Commissioner;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 30px;
-    /* or 231% */
-
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-
-    /* Main (light) */
-
     color: #FFFFFF;
 }
 .navigation{
@@ -57,3 +49,54 @@
     left: 10vw;
 }
 
+.adviceType{
+    text-align: start;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.9);
+}
+.advice{
+    text-align: start;
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1070px) {
+    .image{
+        object-fit: contain;
+        height: auto;
+    }
+    .swiperContainer{
+        height: 30vw;
+    }
+    .adviceType{
+        font-size: 20px;
+    }
+    .advice{
+        font-size: 12px;
+    }
+    .navigation{
+        top: -52%;
+    }
+}
+@media(max-width: 850px){
+    .adviceType{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .advice{
+        font-size: 10px;
+    }
+}

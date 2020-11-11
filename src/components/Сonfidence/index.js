@@ -10,10 +10,10 @@ const Confidence = () => {
                 <p className={confidence.answer}>{`Прозрачность и открытость для клиентов – наш принцип, который с самого начала исключает любые недопонимания. Мы тщательно продумали работу каждого юриста внутри коллектива, что обеспечивает высокое качество юридических услуг компании.`}</p>
             </div>
             <div className={confidence}>
-                <div className={confidence.cause}><div><Point/></div><p className={confidence}>{`безупречная репутация`}</p></div>
-                <div className={confidence.cause}><div><Point/></div><p className={confidence}>{`абсолютная конфиденциальность`}</p></div>
-                <div className={confidence.cause}><div><Point/></div><p className={confidence}>{`внимание к каждому клиенту`}</p></div>
-                <div className={confidence.cause}><div><Point/></div><p className={confidence}>{`успешный опыт решения нестандартных вопросов`}</p></div>
+                <div className={confidence.cause}><div><Point/></div><p className={confidence.causeText}>{`безупречная репутация`}</p></div>
+                <div className={confidence.cause}><div><Point/></div><p className={confidence.causeText}>{`абсолютная конфиденциальность`}</p></div>
+                <div className={confidence.cause}><div><Point/></div><p className={confidence.causeText}>{`внимание к каждому клиенту`}</p></div>
+                <div className={confidence.cause}><div><Point/></div><p className={confidence.causeText}>{`успешный опыт решения нестандартных вопросов`}</p></div>
             </div>
         </div>
         <div className={confidence.line}></div>
@@ -23,10 +23,10 @@ const Confidence = () => {
                     <p className={confidence.answer}>{`Юристы нашей компании готовы дать четкие, основанные на фактах, консультации, касающиеся и «типовой», и нестандартной ситуации, опираясь на сложившуюся служебную практику и многолетний опыт. Мы объективно оцениваем риски и тщательно анализируем каждый случай.`}</p>
                 </div>
                 <div className={confidence}>
-                    <div className={confidence.cause}><Point/><p className={confidence}>{`надежная защита бизнеса`}</p></div>
-                    <div className={confidence.cause}><Point/><p className={confidence}>{`актуальная правовая помощь`}</p></div>
-                    <div className={confidence.cause}><Point/><p className={confidence}>{`своевременная оценка рисков`}</p></div>
-                    <div className={confidence.cause}><Point/><p className={confidence}>{`компетентное решение правовых вопросов`}</p></div>
+                    <div className={confidence.cause}><Point/><p className={confidence.causeText}>{`надежная защита бизнеса`}</p></div>
+                    <div className={confidence.cause}><Point/><p className={confidence.causeText}>{`актуальная правовая помощь`}</p></div>
+                    <div className={confidence.cause}><Point/><p className={confidence.causeText}>{`своевременная оценка рисков`}</p></div>
+                    <div className={confidence.cause}><Point/><p className={confidence.causeText}>{`компетентное решение правовых вопросов`}</p></div>
                 </div>
             </div>
         </div>

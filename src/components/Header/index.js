@@ -27,10 +27,10 @@ const Header = () => {
             </div>
           </div>
           <footer className={header.footer}>
-            <div className={header.phoneContainer}><div>{`+375 (44) 755-01-01`}</div><span><VelcomLogo/></span></div>
+            <div className={header.phoneContainer}><div><span>{`+375 (44) 755-01-01`}</span></div><span><VelcomLogo/></span></div>
             <div className={header.linkContainer}><ViberLogo/></div>
             <div className={header.linkContainer}><WhatsAppLogo/></div>
-            <div className={header.phoneContainer}><div>{`+375 (29) 550-01-01`}</div><span><MTS_logo/></span></div>
+            <div className={header.phoneContainer}><div><span>{`+375 (29) 550-01-01`}</span></div><span><MTS_logo/></span></div>
           </footer>
         </div>
         <div className={header.logoNavigate}>

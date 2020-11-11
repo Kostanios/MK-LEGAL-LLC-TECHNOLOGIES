@@ -13,11 +13,11 @@
     align-items: center;
 }
 .container{
-    padding: 0 calc(10vw - 60px)
+    padding: 0 calc(10vw - 30px)
 }
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     font-family: Lato, sans-serif;
     font-style: normal;
@@ -47,6 +47,7 @@
     color: rgba(0, 0, 0, 0.8);
 }
 .labelCard{
+    margin: 0 30px;
     background: #FFFFFF;
     display: flex;
     justify-content: flex-end;

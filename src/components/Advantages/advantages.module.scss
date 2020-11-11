@@ -20,3 +20,8 @@
     padding: 40px 20px;
     flex-direction: column;
 }
+@media (max-width: 1212px) {
+    .card{
+        flex-grow: 1;
+    }
+}

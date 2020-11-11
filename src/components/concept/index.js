@@ -3,7 +3,7 @@ import concept from './concept.module.scss';
 const Concept = () => {
     return(
         <div className={concept.container}>
-        <div>
+        <div className={concept.content}>
             <h2 className={concept.Header}>{`Юридическое сопровождение бизнеса
  от «МК-Правовые технологии»`}</h2>
             <p className={concept.text}>{`Главный принцип нашей работы - качество. Постоянно следовать ему помогает сплоченная команда талантливых и энергичных сотрудников, способных сообща заниматься сложными проектами, никогда не допуская сбоев в работе.`}</p>

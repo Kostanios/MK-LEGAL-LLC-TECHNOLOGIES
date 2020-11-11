@@ -1,0 +1,173 @@
+.container{
+    display: flex;
+    padding: 0 calc(10vw - 60px);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arrowLink{
+    display: flex;
+    align-items: center;
+}
+.arrowLink label{
+    margin-right: 15px;
+    text-align: start;
+}
+.politice{
+    width: min-content;
+}
+.company{
+    margin: 0 30px;
+    align-items: flex-start;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.companyHeader{
+    text-align: start;
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.unpRating{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+.unpRating label{
+    margin-right: 15px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.linkContainer{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+.departmentContainer{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.departmentsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.departmentGroup{
+    display: flex;
+    flex-direction: column  ;
+}
+.departmentContent{
+    text-align: start;
+    margin: 0 30px;
+}
+.department{
+    margin-top: 29px;
+    margin-bottom: 0;
+    text-align: start;
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+}
+.phone{
+    margin: 2.5px 0;
+    text-align: start;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+
+}
+.adressValue{
+    margin: 0;
+    text-align: start;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.adress{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: start;
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+}
+.mail{
+    text-align: start;
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 6px;
+}
+.timeContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 170px;
+}
+.infoHeader{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.separator{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+    width: 100%;
+}
+.timeTimer{
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+}
+.time{
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}

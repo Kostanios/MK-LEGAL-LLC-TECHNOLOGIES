@@ -200,3 +200,11 @@
 .buyServices{
     padding: 100px 0;
 }
+@media(max-width: 940px){
+    .procedureForm{
+        flex-wrap: wrap;
+    }
+    .procedure{
+        max-width: 100%;
+    }
+}

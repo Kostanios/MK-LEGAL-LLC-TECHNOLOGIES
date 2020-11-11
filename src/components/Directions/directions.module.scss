@@ -1,3 +1,9 @@
+@media (max-width: 1962px){
+   .card{
+        flex-grow: 1;
+        width: auto;
+   } 
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -23,7 +29,7 @@
 }
 .name{
     text-align: start;
-    font-family: Commissioner;
+    font-family: Commissioner, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -37,7 +43,7 @@
     justify-content: space-between;
 }
 .link{
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -52,7 +58,7 @@
     height: 45px;
     background: #DEC377;
     border-radius: 2px;
-    font-family: Commissioner;
+    font-family: Commissioner, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -76,7 +82,7 @@
 .mainDirections h1{
     width: 33%;
     text-align: start;
-    font-family: Commissioner;
+    font-family: Commissioner, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -86,7 +92,7 @@
 }
 .mainDirectionsText{
     width: 66%;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;

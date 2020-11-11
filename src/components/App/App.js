@@ -13,6 +13,8 @@ import Services from '../Services/index';
 import Confidence from '../Сonfidence/index';
 import Skill from '../Skill/index';
 import Cooperation from '../Сooperation/index';
+import Footer from '../Footer';
+
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,7 @@ function App() {
       <Skill/>
       <Cooperation/>
       <div className='line'></div>
+      <Footer/>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 .container{
+    padding-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@
 
 .showButton{
     position: absolute;
-    top: 0;
+    top: 14px;
 }
 
 .langFooter{
@@ -40,7 +41,7 @@
 }
 
 .langPanel{
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 20px;
@@ -61,7 +62,7 @@
   margin-right: 12px;
   display: flex;
   font-size: 14px;
-  font-family: Commissioner;
+  font-family: Commissioner, sans-serif;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -74,4 +75,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 66%;
+}
+.phoneContainer div span{
+    width: max-content;
+}
+
+@media (max-width: 1128px) {
+    .langFooter{
+      margin-top: 35px;
+    }
+}
+@media (max-width: 715px) {
+    .footer{
+        flex-wrap: wrap;
+    }
 }
