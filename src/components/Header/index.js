@@ -36,12 +36,12 @@ const Header = () => {
         <div className={header.logoNavigate}>
           <LawTecnologiesLogo/>
           <div className={header.navigateLine}>
-            <a>{`Главная`}</a>
-            <a>{`О Нас`}</a>
-            <a>{`Услуги`}</a>
-            <a>{`Тарифы`}</a>
-            <a>{`Инфоцентр`}</a>
-            <a>{`Контакты`}</a>
+            <a className={header.navigateLink}>{`Главная`}</a>
+            <a className={header.navigateLink}>{`О Нас`}</a>
+            <a className={header.navigateLink}>{`Услуги`}</a>
+            <a className={header.navigateLink}>{`Тарифы`}</a>
+            <a className={header.navigateLink}>{`Инфоцентр`}</a>
+            <a className={header.navigateLink}>{`Контакты`}</a>
           </div>
         </div>
       </div>

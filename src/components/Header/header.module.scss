@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .langBlock{
@@ -75,9 +76,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 66%;
+    margin: 20px 0;
 }
 .phoneContainer div span{
     width: max-content;
+}
+.navigateLink{
+    margin: 0 8px;
+    font-family: Commissioner,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width: 1128px) {
