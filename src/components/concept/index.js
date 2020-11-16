@@ -1,5 +1,6 @@
-import React from 'react';
+import React from './node_modules/react';
 import concept from './concept.module.scss';
+
 const Concept = () => {
     return(
         <div className={concept.container}>
